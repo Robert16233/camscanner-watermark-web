@@ -3,6 +3,7 @@
 [![CI](https://github.com/Robert16233/camscanner-watermark-web/actions/workflows/ci.yml/badge.svg)](https://github.com/Robert16233/camscanner-watermark-web/actions/workflows/ci.yml)
 [![Docker](https://img.shields.io/badge/deploy-Docker-2496ED)](Dockerfile)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Robert16233/camscanner-watermark-web)
 
 这是一个可部署的公开版 Web 项目。用户上传 PDF 后，服务端在临时目录中处理文件，返回去水印后的 PDF 或 zip，然后自动清理临时文件。
 
