@@ -2,7 +2,7 @@ services:
   - type: web
     name: camscanner-watermark-web
     runtime: docker
-    plan: starter
+    plan: free
     healthCheckPath: /healthz
     envVars:
       - key: MAX_UPLOAD_BYTES
