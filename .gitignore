@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.env
+.gh-config/
+login_github_cli.log
+work/
+*.pdf
+*.zip

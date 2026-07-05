@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      MAX_UPLOAD_BYTES: "52428800"
+      MAX_FILES: "10"
+      RATE_LIMIT_PER_MINUTE: "20"
+    restart: unless-stopped

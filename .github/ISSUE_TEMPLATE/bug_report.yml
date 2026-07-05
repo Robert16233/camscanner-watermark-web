@@ -1,0 +1,32 @@
+name: Bug report
+description: Report a problem with upload, processing, or deployment.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem without uploading private PDFs.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the site
+        2. Upload a PDF
+        3. See error
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: Render / Railway / Docker / local
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs
+      description: Remove file names and private data before pasting logs.

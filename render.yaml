@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: camscanner-watermark-web
+    runtime: docker
+    plan: starter
+    healthCheckPath: /healthz
+    envVars:
+      - key: MAX_UPLOAD_BYTES
+        value: "52428800"
+      - key: MAX_FILES
+        value: "10"
+      - key: RATE_LIMIT_PER_MINUTE
+        value: "20"
